@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil | Portfolio Nesrine Benadjal</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images3.jpg');
+            background-size: cover;
+            height: 150vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 4em;
+            color: #faf9f7; /* orange doux */
+            margin-top: 0;
+            margin-bottom: 0;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+        .hero p {
+            font-size: 2em;
+            color: #fff3e6;
+            margin-bottom: 0;
+            text-shadow: 1px 1px 6px rgba(0,0,0,0.3);
+            font-style: italic;
+        }
+         .about-header h1 {
+    font-size: 4em;
+    color: #e7e4e2; /* orange doux */
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+}
+        .cta-buttons {
+            margin-top: 30px;
+        }
+        .cta-button {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 30px;
+            background: #915644;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            background: #915644;
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <h1>Nesrine Benadjal</h1>
+            <p>Doctorante en Informatique </p>
+            
+            <div class="cta-buttons">
+                <a href="about.html" class="cta-button">À Propos de Moi</a>
+                <a href="thesis.html" class="cta-button">Ma Thèse</a>
+                <a href="education.html" class="cta-button">Mon Parcours</a>
+                <a href="skills.html" class="cta-button">Mes Compétences</a>
+                <a href="projects.html" class="cta-button">Mes Projets</a>
+                <a href="contact.html" class="nav-button">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <script src="script.js"></script>
+    <footer class="site-footer">
+    <div class="footer-content">
+        <h2>Mes coordonnées</h2>
+        <ul class="footer-contact-list">
+            <li><strong>Email :</strong> <a href="mailto:nesrinebenadjel63@gmail.com">nesrinebenadjel63@gmail.com</a></li>
+            <li><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/nesrine-benadjal-Oa7327258" target="_blank">Profil LinkedIn</a></li>
+            <li><strong>ResearchGate :</strong> <a href="https://www.researchgate.net/profile/Nesrine-Benadjal" target="_blank">Profil ResearchGate</a></li>
+        </ul>
+    </div>
+</footer>
+<style>
+.site-footer {
+    background: #f8f9fa;
+    border-top: 2px solid #915644;
+    padding: 25px 0 10px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-content h2 {
+    color: #915644;
+    margin-bottom: 15px;
+    font-size: 1.4em;
+}
+.footer-contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    min-width: 260px; /* largeur mini pour un joli rectangle */
+}
+.footer-contact-list li {
+    margin-bottom: 8px;
+    font-size: 1.08em;
+    color: #333;
+}
+.site-footer a {
+    color: #915644;
+    text-decoration: none;
+}
+.site-footer a:hover {
+    text-decoration: underline;
+}
+</style>
+</body>
+</html>

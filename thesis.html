@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thèse de Doctorat | Nesrine Benadjal</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .thesis-header {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images3.jpg');
+        background-size: cover;
+    background-position: center; /* Correction ici */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    background-color: #f0f0f0;
+    position: relative;
+}
+
+.thesis-header h1 {
+    font-size: 3em;
+    color: #faf9f7; /* orange doux */
+    margin-top: 300px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.thesis-header p {
+    font-size: 1.5em;
+    color: #fff3e6;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 6px rgba(0,0,0,0.3);
+    font-style: italic;
+}
+main h2 {
+    font-size: 2em;
+    color: #915644; /* couleur personnalisée */
+    margin-top: 30px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+        .research-details {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin: 40px 0;
+        }
+        .research-card {
+            flex: 1;
+            min-width: 300px;
+            padding: 25px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .navigation-buttons {
+            margin: 40px 0;
+            text-align: center;
+        }
+        .nav-button {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 10px 25px;
+            background: #915644;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+        }
+        .nav-button:hover {
+            background:#915644;
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+<body>
+    <header class="thesis-header">
+        <div class="container">
+            <h1>Thèse de Doctorat</h1>
+            <p>Apprentissage profond pour l'optimisation des performances logicielles</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>Sujet de Recherche</h2>
+            <p>Ma recherche doctorale se concentre sur l'exploitation de l'apprentissage profond pour l'évaluation précise des performances logicielles et le développement de stratégies d'optimisation.</p>
+            
+            <div class="research-details">
+                <div class="research-card">
+                    <h3>Objectifs</h3>
+                    <ul>
+                        <li>Amélioration des qualité des logiciels via DL</li>
+                        <li>Recommandation de techniques d'optimisation spécifiques aux problèmes de code pour réduire le temps d'exécution</li>
+                        <li>Génération d'optimisations automatiques</li>
+                        <li>Amélioration des temps d'exécution</li>
+                    </ul>
+                </div>
+                <div class="research-card">
+                    <h3>Méthodologie</h3>
+                    <ul>
+                        <li>Modèles de Deep Learning</li>
+                        <li>LLMs</li>
+                        <li>Generative AI </li>
+                        <li>Analyse de performance</li>
+                        <li>Benchmarks comparatifs</li>
+                    </ul>
+                </div>
+                <div class="research-card">
+                    <h3>Applications</h3>
+                    <ul>
+                        <li>Calcul Haute Performance</li>
+                        <li>Optimisation logicielle</li>
+                        <li>Big data</li>
+                        <li>NLP</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="navigation-buttons">
+                <a href="about.html" class="nav-button">À Propos</a>
+                <a href="education.html" class="nav-button">Mon Parcours</a>
+                <a href="projects.html" class="nav-button">Mes Projets</a>
+                <a href="index.html" class="nav-button">Accueil</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <footer class="site-footer">
+    <div class="footer-content">
+        <h2>Mes coordonnées</h2>
+        <ul class="footer-contact-list">
+            <li><strong>Email :</strong> <a href="mailto:nesrinebenadjel63@gmail.com">nesrinebenadjel63@gmail.com</a></li>
+            <li><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/nesrine-benadjal-Oa7327258" target="_blank">Profil LinkedIn</a></li>
+            <li><strong>ResearchGate :</strong> <a href="https://www.researchgate.net/profile/Nesrine-Benadjal" target="_blank">Profil ResearchGate</a></li>
+        </ul>
+    </div>
+</footer>
+<style>
+.site-footer {
+    background: #f8f9fa;
+    border-top: 2px solid #915644;
+    padding: 25px 0 10px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-content h2 {
+    color: #915644;
+    margin-bottom: 15px;
+    font-size: 1.4em;
+}
+.footer-contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    min-width: 260px; /* largeur mini pour un joli rectangle */
+}
+.footer-contact-list li {
+    margin-bottom: 8px;
+    font-size: 1.08em;
+    color: #333;
+}
+.site-footer a {
+    color: #915644;
+    text-decoration: none;
+}
+.site-footer a:hover {
+    text-decoration: underline;
+}
+</style>
+</body>
+</html>

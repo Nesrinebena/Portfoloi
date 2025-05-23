@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À Propos | Nesrine Benadjal</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .about-header {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('image.png');
+    background-size: cover;
+    background-position: center; /* Correction ici */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-color: #f0f0f0;
+    position: relative;
+}
+      .hero-banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5); /* Overlay semi-transparent */
+}  
+        .navigation-buttons {
+            margin: 40px 0;
+            text-align: center;
+        }
+        .nav-button {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 10px 25px;
+            background: #915644;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+        }
+        .nav-button:hover {
+     
+            background: #e7c7bd;
+            transform: translateY(-3px);
+        }
+        .about-header h1 {
+    font-size: 3em;
+    color: #e7e4e2; /* orange doux */
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+}
+
+main h2 {
+    font-size: 2em;
+    color: #915644; /* couleur personnalisée */
+    margin-top: 30px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+main p {
+    font-size: 1em;
+    color: #222;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+    </style>
+</head>
+<body>
+    <header class="about-header">
+        <div class="container">
+            <h1>À Propos de Moi</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>Mon Profil</h2>
+            <p>Doctorante en informatique, passionnée
+par l'évaluation et l'optimisation des
+performances, techniques avancées
+d'apprentissage profond . Mon parcours,
+enrichi par une solide expérience en Calcul
+Haute Performance (HPC), me motive à
+innover dans la manière dont nous
+concevons et exécutons les logiciels pour
+des performances optimales.</p>
+            
+            <div class="navigation-buttons">
+                <a href="thesis.html" class="nav-button">Voir ma Thèse</a>
+                <a href="education.html" class="nav-button">Mon Parcours</a>
+                <a href="index.html" class="nav-button">Retour à l'accueil</a>
+            
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+<footer class="site-footer">
+    <div class="footer-content">
+        <h2>Mes coordonnées</h2>
+        <ul class="footer-contact-list">
+            <li><strong>Email :</strong> <a href="mailto:nesrinebenadjel63@gmail.com">nesrinebenadjel63@gmail.com</a></li>
+            <li><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/nesrine-benadjal-Oa7327258" target="_blank">Profil LinkedIn</a></li>
+            <li><strong>ResearchGate :</strong> <a href="https://www.researchgate.net/profile/Nesrine-Benadjal" target="_blank">Profil ResearchGate</a></li>
+        </ul>
+    </div>
+</footer>
+<style>
+.site-footer {
+    background: #f8f9fa;
+    border-top: 2px solid #915644;
+    padding: 25px 0 10px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-content h2 {
+    color: #915644;
+    margin-bottom: 15px;
+    font-size: 1.4em;
+}
+.footer-contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    min-width: 260px; /* largeur mini pour un joli rectangle */
+}
+.footer-contact-list li {
+    margin-bottom: 8px;
+    font-size: 1.08em;
+    color: #333;
+}
+.site-footer a {
+    color: #915644;
+    text-decoration: none;
+}
+.site-footer a:hover {
+    text-decoration: underline;
+}
+</style>
+</body>
+
+</html>

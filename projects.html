@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets | Nesrine Benadjal</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .projects-header {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images3.jpg');
+            background-size: cover;
+    background-position: center; /* Correction ici */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-color: #f0f0f0;
+    position: relative;
+}
+        
+        .projects-header h1 {
+            font-size: 3.2em;
+            color: #f7f5f4; /* orange doux ou autre couleur de votre choix */
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+
+        .projects-header p {
+            font-size: 1.5em;
+            font-style: italic;
+            color: #fff3e6;
+            margin-bottom: 0;
+            text-shadow: 1px 1px 6px rgba(0,0,0,0.3);
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        .project-card {
+            background: #f8f9fa;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+        }
+        .project-image {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+        .project-content {
+            padding: 20px;
+        }
+        .project-content h3 {
+            color:#915644;
+            margin-bottom: 15px;
+        }
+        .project-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 15px 0;
+        }
+        .project-tag {
+            padding: 5px 10px;
+            background: #e0e0e0;
+            border-radius: 20px;
+            font-size: 0.8em;
+        }
+        .navigation-buttons {
+            margin: 40px 0;
+            text-align: center;
+        }
+        .nav-button {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 10px 25px;
+            background:#915644;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+        }
+        .nav-button:hover {
+            background:#915644;
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+<body>
+    <header class="projects-header">
+        <div class="container">
+            <h1>Mes Projets</h1>
+            <p>Réalisations académiques et professionnelles</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>Mes Réalisations</h2>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('/home/nesrine/Téléchargements/image2.jpg');"></div>
+                    <div class="project-content">
+                        <h3>Application Android E-Commerce</h3>
+                        <p>Développement d'une application mobile Android pour l'achat et la vente en ligne, intégrant un système de marketing d'affiliation.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Android studio</span>
+                            <span class="project-tag">Java</span>
+                            <span class="project-tag">XML</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('/home/nesrine/Téléchargements/image-processing.png');"></div>
+                    <div class="project-content">
+                        <h3>Traitement d'Images</h3>
+                        <p>Segmentation, extraction d'objets, détection de contours et formulation d'un modèle mathématique représentant ces contours.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Computer Vision</span>
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">OpenCV</span>
+                            <span class="project-tag">Matplotlib</span>
+                            <span class="project-tag">SciPy</span>
+                            <span class="project-tag">Numpy</span>
+
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('/home/nesrine/Téléchargements/virtualsc.png');"></div>
+                    <div class="project-content">
+                        <h3>Virtual Screening avec DL</h3>
+                        <p>Application de techniques de Deep Learning pour accélérer le processus de virtual screening de molécules.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Deep Learning</span>
+                    
+                            <span class="project-tag">Bioinformatique</span>
+                            <span class="project-tag">TensorFlow</span>
+                            <span class="project-tag">Keras</span>
+                            <span class="project-tag">Numpy</span>
+                            <span class="project-tag">Scikit-learn</span>
+                            <span class="project-tag">Pandas</span>
+                            <span class="project-tag">Matplotlib</span>
+                            <span class="project-tag">SciPy</span>
+                            <span class="project-tag">Pycuda</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('/home/nesrine/Téléchargements/téléchargement.png');"></div>
+                    <div class="project-content">
+                        <h3>Optimisation Logicielle avec DL</h3>
+                        <p>Exploration de la capacité du Deep Learning à améliorer la qualité et les performances des logiciels.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Performance</span>
+                            <span class="project-tag">Optimisation</span>
+                            <span class="project-tag">PyTorch</span>
+                            <span class="project-tag">TensorFlow</span>
+                            <span class="project-tag">Keras</span>
+                            <span class="project-tag">Numpy</span>
+                            <span class="project-tag">Scikit-learn</span>
+                            <span class="project-tag">Pandas</span>
+                            <span class="project-tag">Matplotlib</span>
+                            <span class="project-tag">SciPy</span>
+                            <span class="project-tag">Pycuda</span>
+                            <span class="project-tag">Big data</span>
+                            <span class="project-tag">HPC</span>
+                            <span class="project-tag">Complexité</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="navigation-buttons">
+                <a href="skills.html" class="nav-button">Mes Compétences</a>
+                <a href="thesis.html" class="nav-button">Ma Thèse</a>
+                <a href="education.html" class="nav-button">Mon Parcours</a>
+                <a href="index.html" class="nav-button">Accueil</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <footer class="site-footer">
+    <div class="footer-content">
+        <h2>Mes coordonnées</h2>
+        <ul class="footer-contact-list">
+            <li><strong>Email :</strong> <a href="mailto:nesrinebenadjel63@gmail.com">nesrinebenadjel63@gmail.com</a></li>
+            <li><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/nesrine-benadjal-Oa7327258" target="_blank">Profil LinkedIn</a></li>
+            <li><strong>ResearchGate :</strong> <a href="https://www.researchgate.net/profile/Nesrine-Benadjal" target="_blank">Profil ResearchGate</a></li>
+        </ul>
+    </div>
+</footer>
+<style>
+.site-footer {
+    background: #f8f9fa;
+    border-top: 2px solid #915644;
+    padding: 25px 0 10px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-content h2 {
+    color: #915644;
+    margin-bottom: 15px;
+    font-size: 1.4em;
+}
+.footer-contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    min-width: 260px; /* largeur mini pour un joli rectangle */
+}
+.footer-contact-list li {
+    margin-bottom: 8px;
+    font-size: 1.08em;
+    color: #333;
+}
+.site-footer a {
+    color: #915644;
+    text-decoration: none;
+}
+.site-footer a:hover {
+    text-decoration: underline;
+}
+</style>
+</body>
+</html>
